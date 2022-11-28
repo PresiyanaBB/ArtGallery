@@ -1,7 +1,7 @@
 ﻿using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
 
-namespace ArtGallery.Data
+namespace ArtGallery.Infrastructure.Data
 {
     public class ApplicationDbContext : IdentityDbContext
     {

@@ -1,4 +1,4 @@
-using ArtGallery.Data;
+using ArtGallery.Infrastructure.Data;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 

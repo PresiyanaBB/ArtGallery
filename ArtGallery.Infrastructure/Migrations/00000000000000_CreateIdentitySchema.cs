@@ -2,7 +2,7 @@
 using Microsoft.EntityFrameworkCore.Migrations;
 using System;
 
-namespace ArtGallery.Data.Migrations
+namespace ArtGallery.Infrastructure.Data.Migrations
 {
     public partial class CreateIdentitySchema : Migration
     {
