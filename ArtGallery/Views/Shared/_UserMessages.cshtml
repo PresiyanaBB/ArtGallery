@@ -1,0 +1,28 @@
+﻿@using ArtGallery.Core.Constants;
+
+@if (ViewData[MessageConstant.ErrorMesssage] != null)
+{
+    <script>
+        $(function () {
+            toastr.error('@ViewData[MessageConstant.ErrorMesssage]?.ToString()');
+        });
+    </script>
+}
+
+@if (ViewData[MessageConstant.SuccessMesssage] != null)
+{
+    <script>
+        $(function () {
+            toastr.success('@ViewData[MessageConstant.SuccessMesssage]?.ToString()');
+        });
+    </script>
+}
+
+@if (ViewData[MessageConstant.WarningMesssage] != null)
+{
+    <script>
+        $(function () {
+            toastr.warning('@ViewData[MessageConstant.WarningMesssage]?.ToString()');
+        });
+    </script>
+}

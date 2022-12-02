@@ -1,10 +1,11 @@
-﻿using ArtGallery.Models;
+﻿using ArtGallery.Core.Constants;
+using ArtGallery.Models;
 using Microsoft.AspNetCore.Mvc;
 using System.Diagnostics;
 
 namespace ArtGallery.Controllers
 {
-    public class HomeController : Controller
+    public class HomeController : BaseController
     {
         private readonly ILogger<HomeController> _logger;
 
@@ -15,6 +16,8 @@ namespace ArtGallery.Controllers
 
         public IActionResult Index()
         {
+            //ViewData[MessageConstant.ErrorMesssage] = "error";
+
             return View();
         }
 
