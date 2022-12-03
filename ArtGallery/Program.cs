@@ -1,5 +1,8 @@
+using ArtGallery.Core.Constants;
 using ArtGallery.Infrastructure.Data;
+using ArtGallery.ModelBinders;
 using Microsoft.AspNetCore.Identity;
+using Microsoft.AspNetCore.Mvc.Razor;
 using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -12,7 +15,14 @@ builder.Services.AddDatabaseDeveloperPageExceptionFilter();
 
 builder.Services.AddDefaultIdentity<IdentityUser>(options => options.SignIn.RequireConfirmedAccount = true)
     .AddEntityFrameworkStores<ApplicationDbContext>();
-builder.Services.AddControllersWithViews();
+builder.Services.AddControllersWithViews()
+     .AddMvcOptions(options =>
+     {
+         options.ModelBinderProviders.Insert(0, new DecimalModelBinderProvider());
+         options.ModelBinderProviders.Insert(1, new DateTimeModelBinderProvider(FormatingConstant.NormalDateFormat));
+         options.ModelBinderProviders.Insert(2, new DoubleModelBinderProvider());
+     })
+    .AddMvcLocalization(LanguageViewLocationExpanderFormat.Suffix);
 
 var app = builder.Build();
 
