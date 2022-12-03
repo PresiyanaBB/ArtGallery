@@ -10,4 +10,8 @@
     <ProjectReference Include="..\ArtGallery.Infrastructure\ArtGallery.Infrastructure.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="CustomAttributes\" />
+  </ItemGroup>
+
 </Project>
