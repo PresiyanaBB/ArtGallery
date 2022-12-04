@@ -1,5 +1,6 @@
 ﻿using ArtGallery.Core.Constants;
 using ArtGallery.Models;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using System.Diagnostics;
 
@@ -16,7 +17,7 @@ namespace ArtGallery.Controllers
 
         public IActionResult Index()
         {
-            //ViewData[MessageConstant.ErrorMesssage] = "error";
+            //ViewData[MessageConstant.SuccessMesssage] = "Successfully logged in";
 
             return View();
         }
