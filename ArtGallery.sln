@@ -3,11 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.1.32319.34
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ArtGallery", "ArtGallery\ArtGallery.csproj", "{87516020-C33B-4614-8BE8-06F090C2F3BC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ArtGallery", "ArtGallery\ArtGallery.csproj", "{87516020-C33B-4614-8BE8-06F090C2F3BC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ArtGallery.Core", "ArtGallery.Core\ArtGallery.Core.csproj", "{F3C5D0DB-A014-4EBB-8A9B-815553ACC1F8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ArtGallery.Core", "ArtGallery.Core\ArtGallery.Core.csproj", "{F3C5D0DB-A014-4EBB-8A9B-815553ACC1F8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ArtGallery.Infrastructure", "ArtGallery.Infrastructure\ArtGallery.Infrastructure.csproj", "{87E29D90-DE0F-4E54-A878-9AD641499FE9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ArtGallery.Infrastructure", "ArtGallery.Infrastructure\ArtGallery.Infrastructure.csproj", "{87E29D90-DE0F-4E54-A878-9AD641499FE9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ArtGallery.Api", "ArtGallery.Api\ArtGallery.Api.csproj", "{9DF5DB87-AA79-4ED1-9D4A-763CB00FF9F7}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +29,10 @@ Global
 		{87E29D90-DE0F-4E54-A878-9AD641499FE9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{87E29D90-DE0F-4E54-A878-9AD641499FE9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{87E29D90-DE0F-4E54-A878-9AD641499FE9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9DF5DB87-AA79-4ED1-9D4A-763CB00FF9F7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9DF5DB87-AA79-4ED1-9D4A-763CB00FF9F7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9DF5DB87-AA79-4ED1-9D4A-763CB00FF9F7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9DF5DB87-AA79-4ED1-9D4A-763CB00FF9F7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
