@@ -1,8 +1,8 @@
 ﻿using ArtGallery.Infrastructure.Data.Repositories;
 using ArtGallery.Infrastructure.Data;
 using Microsoft.EntityFrameworkCore;
-//using ArtGallery.Core.Contracts;
-//using ArtGallery.Core.Services;
+using ArtGallery.Core.Contracts;
+using ArtGallery.Core.Services;
 
 namespace Microsoft.Extensions.DependencyInjection
 {
