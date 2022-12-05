@@ -20,5 +20,5 @@ public class Order
     [MaxLength(ValidationConstants.OrderAddressMaxLength)]
     public string? Address { get; set; }
 
-    public IList<OrderPainting> OrderProducts { get; set; } = new List<OrderPainting>();
+    public IList<OrderPainting> OrderPaintings { get; set; } = new List<OrderPainting>();
 }

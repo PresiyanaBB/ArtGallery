@@ -10,10 +10,9 @@ namespace ArtGallery.Core.Models
     public class OrderViewModel
     {
         public string? Id { get; set; }
-        public string? UserFirstName { get; set; }
-        public string? UserLastName { get; set; }
+        public string? UserName { get; set; }
         public DateTime OrderTime { get; set; }
         public Status Status { get; set; }
-        public IList<OrderPaintingViewModel> Painting { get; set; } = new List<OrderPaintingViewModel>();
+        public IList<OrderPaintingViewModel> Paintings { get; set; } = new List<OrderPaintingViewModel>();
     }
 }

@@ -6,9 +6,8 @@ using System.Threading.Tasks;
 
 namespace ArtGallery.Core.Models
 {
-    public class OrderPaintingViewModel : PaintingViewModel
+    public class PlaceOrderPaintingModel
     {
-
+        public string? Id { get; set; }
     }
 }
-
