@@ -1,7 +1,7 @@
 ﻿using ArtGallery.Core.Common;
 using ArtGallery.Core.Contracts;
 using ArtGallery.Core.Models;
-using ArtGallery.Infrastructure.Data;
+using ArtGallery.Infrastructure.Data.Models;
 using ArtGallery.Infrastructure.Data.Repositories;
 using Microsoft.EntityFrameworkCore;
 using System;

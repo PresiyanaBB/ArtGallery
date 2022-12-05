@@ -6,7 +6,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ArtGallery.Infrastructure.Data
+namespace ArtGallery.Infrastructure.Data.Models
 {
     public class Service
     {

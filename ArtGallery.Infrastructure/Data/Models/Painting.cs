@@ -1,5 +1,4 @@
-﻿using ArtGallery.Infrastructure.Data;
-using ArtGallery.Infrastructure.Data.Constants;
+﻿using ArtGallery.Infrastructure.Data.Constants;
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 

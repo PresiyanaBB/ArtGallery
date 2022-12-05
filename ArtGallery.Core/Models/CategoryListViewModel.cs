@@ -1,4 +1,4 @@
-﻿using ArtGallery.Infrastructure.Data;
+﻿using ArtGallery.Infrastructure.Data.Models;
 using System;
 using System.Collections.Generic;
 using System.Linq;

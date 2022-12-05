@@ -1,7 +1,6 @@
 ﻿using ArtGallery.Core.Contracts;
 using ArtGallery.Core.Models;
 using ArtGallery.Infrastructure.Data.Models;
-using ArtGallery.Infrastructure.Data;
 using Grpc.Core;
 using System.Linq.Expressions;
 using ArtGallery.Infrastructure.Data.Repositories;
@@ -10,7 +9,7 @@ using ArtGallery.Core.Common;
 using ArtGallery.Core.Constants;
 
 namespace ArtGallery.Core.Services
-{ 
+{
     public class StoreService : DataService, IStoreService
     {
         public StoreService(IApplicationDbRepository repo)
